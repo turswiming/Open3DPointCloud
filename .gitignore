@@ -5,7 +5,7 @@ docker/*.tar.gz
 docker/*.tar.xz
 
 # Windows build temp cmake file
-CMakeSettings.json
+# CMakeSettings.json
 
 # Ccache tar files generated from Docker build
 .github/workflows/*.tar.gz
@@ -91,3 +91,6 @@ docs/Doxyfile
 docs/getting_started.rst
 docs/docker.rst
 docs/tensorboard.md
+
+#编译目录 compile dir
+out/
